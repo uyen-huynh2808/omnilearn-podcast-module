@@ -16,7 +16,7 @@ The Podcast Module is essential for the OmniLearn platform's goal of enabling **
 
 The podcast generation pipeline is a specialized RAG-based application, transforming retrieved content (Combined Input: Instruction, Query, and Context) into a multi-format output.
 
-### 1. The Podcast Generation Flow
+**The Podcast Generation Flow**
 
 | Step | Component | Technology Used | Key Functionality |
 | :--- | :--- | :--- | :--- |
@@ -63,6 +63,7 @@ podcast/
 You must install **FFmpeg** on your operating system, as it is required by the `pydub` library for all audio post-processing tasks.
 
 * **Linux (Debian/Ubuntu):** `sudo apt update && sudo apt install ffmpeg`
+* **macOS (Homebrew):** `brew install ffmpeg`
 
 ### 2. Installation
 
